@@ -31,3 +31,5 @@ To test the project, you can use the Postman collection.
 
 Make sure to start the services of the connectors (HotelLegs) and the Hub. You can access the connector directly or through the Hub for testing.
 
+## Adding more connectors
+In case a new connector is added, the url must be included in the **appsettings.Developent.json** on **"ConnectorEndpoints"** list.
