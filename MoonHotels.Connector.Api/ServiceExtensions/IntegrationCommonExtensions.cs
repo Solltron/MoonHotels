@@ -44,6 +44,7 @@ public static class IntegrationCommonExtensions
                         ConnectionService<TSupplierRequest, TSupplierResponse>>()
                     .AddSingleton<IRequestSenderService<TSupplierRequest, TSupplierResponse>,
                         HttpClientSupplierRequestSenderService<TSupplierRequest, TSupplierResponse>>()
+                    //replace by .AddHttpClient if you want to use a real connection
                     .AddSingleton<IHttpClientFactory,
                         FakeHttpClientFactory>();
     }
