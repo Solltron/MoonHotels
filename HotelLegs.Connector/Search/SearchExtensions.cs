@@ -2,7 +2,7 @@
 using HotelLegs.Connector.Search.Models.Request;
 using HotelLegs.Connector.Search.Models.Response;
 using HotelLegs.Connector.Search.Operations;
-using MoonHotels.Hub.Api.ServiceExtensions;
+using MoonHotels.Connector.Api.ServiceExtensions;
 
 namespace HotelLegs.Connector.Search;
 

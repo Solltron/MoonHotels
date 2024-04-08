@@ -1,5 +1,5 @@
 using HotelLegs.Connector;
-using MoonHotels.Hub.Api.ServiceExtensions;
+using MoonHotels.Connector.Api.ServiceExtensions;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,7 +1,6 @@
 ﻿using System.Globalization;
 using HotelLegs.Connector.Search.Models.Request;
-using MoonHotels.Hub.Application.Connection;
-using MoonHotels.Hub.Application.Operations.Search;
+using MoonHotels.Connector.Application.Connection;
 using MoonHotels.Hub.Domain.Contracts.Search.Request;
 
 namespace HotelLegs.Connector.Search.Operations;

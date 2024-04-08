@@ -8,10 +8,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\MoonHotels.Connector.Api\MoonHotels.Connector.Api.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Search\Steps\" />
+      <ProjectReference Include="..\MoonHotels.Connector.Application\MoonHotels.Connector.Application.csproj" />
     </ItemGroup>
 
 </Project>

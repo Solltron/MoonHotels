@@ -1,14 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonHotels.Hub.Api", "MoonHotels.Hub.Api\MoonHotels.Hub.Api.csproj", "{2201740E-D374-429D-AA0D-345984457ACE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonHotels.Connector.Api", "MoonHotels.Connector.Api\MoonHotels.Connector.Api.csproj", "{2201740E-D374-429D-AA0D-345984457ACE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonHotels.Hub.Application", "MoonHotels.Hub.Application\MoonHotels.Hub.Application.csproj", "{2F226DDF-8ACC-411A-AEDD-CDBC8A29810D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonHotels.Connector.Application", "MoonHotels.Connector.Application\MoonHotels.Connector.Application.csproj", "{2F226DDF-8ACC-411A-AEDD-CDBC8A29810D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonHotels.Hub.Domain", "MoonHotels.Hub.Domain\MoonHotels.Hub.Domain.csproj", "{EF995A9C-E824-415A-9250-289E55C10E44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonHotels.Connector.Domain", "MoonHotels.Connector.Domain\MoonHotels.Connector.Domain.csproj", "{EF995A9C-E824-415A-9250-289E55C10E44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonHotels.Hub.Infrastructure", "MoonHotels.Hub.Infrastructure\MoonHotels.Hub.Infrastructure.csproj", "{D920F52E-4FE3-4C5B-8C58-90C43E5FC0DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonHotels.Connector.Infrastructure", "MoonHotels.Connector.Infrastructure\MoonHotels.Connector.Infrastructure.csproj", "{D920F52E-4FE3-4C5B-8C58-90C43E5FC0DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelLegs.Connector", "HotelLegs.Connector\HotelLegs.Connector.csproj", "{6ED8BC1D-227B-4F0A-BC66-D3F3591C6FAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonHotels.Hub", "MoonHotels.Hub\MoonHotels.Hub.csproj", "{0093E370-270B-4F54-BA67-14262F3F8136}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +38,9 @@ Global
 		{6ED8BC1D-227B-4F0A-BC66-D3F3591C6FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ED8BC1D-227B-4F0A-BC66-D3F3591C6FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ED8BC1D-227B-4F0A-BC66-D3F3591C6FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0093E370-270B-4F54-BA67-14262F3F8136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0093E370-270B-4F54-BA67-14262F3F8136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0093E370-270B-4F54-BA67-14262F3F8136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0093E370-270B-4F54-BA67-14262F3F8136}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

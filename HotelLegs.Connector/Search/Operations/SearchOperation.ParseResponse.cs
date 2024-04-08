@@ -1,6 +1,5 @@
 ﻿using HotelLegs.Connector.Search.Models.Response;
-using MoonHotels.Hub.Application.Connection;
-using MoonHotels.Hub.Application.Operations.Search;
+using MoonHotels.Connector.Application.Connection;
 using MoonHotels.Hub.Domain.Contracts.Search.Request;
 using MoonHotels.Hub.Domain.Contracts.Search.Response;
 

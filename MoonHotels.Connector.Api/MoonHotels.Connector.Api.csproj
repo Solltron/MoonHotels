@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+		<IsPackable>true</IsPackable>
+		<OutputType>Library</OutputType>
+		<AssemblyName>MoonHotels.Connector.Api</AssemblyName>
+		<RootNamespace>MoonHotels.Connector.Api</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MoonHotels.Connector.Application\MoonHotels.Connector.Application.csproj" />
+      <ProjectReference Include="..\MoonHotels.Connector.Domain\MoonHotels.Connector.Domain.csproj" />
+      <ProjectReference Include="..\MoonHotels.Connector.Infrastructure\MoonHotels.Connector.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Properties\launchSettings.json" />
+    </ItemGroup>
+
+</Project>
